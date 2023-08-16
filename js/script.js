@@ -39,8 +39,3 @@ window.onbeforeunload = () => {
     form.reset();
   }
 }
-
-//Recaptcha V3
-function onSubmit(token) {
-  document.getElementById("contact").submit();
-}
