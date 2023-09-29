@@ -1,3 +1,10 @@
+import { inject } from '@vercel/analytics';
+ 
+
+//Analytics
+inject();
+
+
 // Replace Text In Header
 const checkReplace = document.querySelector('.replace-me');
 
